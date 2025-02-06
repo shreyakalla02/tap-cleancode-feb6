@@ -22,15 +22,15 @@ for index in range(len(list_sample)):
   print(index, ":", list_sample[index])
 print(hr)
 
-em = "j@em2.com"
+email = "j@em2.com"
 
 # Dictionary : { key_1: value_1, key_2: value_2, ..... key_n: value_n }
-d = {
+dictionary_sample = {
   "id" : 123,
   "name": "John",
   "email" : [
       "j@em.com",
-      em
+      email
   ]
 }
 
